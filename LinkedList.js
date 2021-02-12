@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // The node class in named with _ .
 // The underscore simply indicates that the node class is a private class that shoul not
 // be accessible by anyone else other than the linked list class.
@@ -179,8 +180,8 @@ const main = function () {
   newSLL.insertLast(3);
   newSLL.insertLast(4);
 
-  cycleInList(newSLL);
-  display(newSLL);
+  //cycleInList(newSLL);
+  //display(newSLL);
 };
 
 // Q3 Supplemental functions for a linked list
